@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserEdit /> Rendering should match snapshot 1`] = `
+.c10 {
+  padding: 0.5em 1.8em;
+  font-size: 1em;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background: #04a453;
+  color: #fff;
+  border: 2px solid #04a453;
+  border-radius: 4px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 1em 0;
+}
+
+.c10:hover {
+  opacity: 0.8;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  width: 450px;
+  margin-top: 3em;
+}
+
+.c1 > .c9 {
+  margin-top: 1em;
+}
+
+.c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.c7 {
+  display: block;
+  margin-bottom: 0.3em;
+  font-weight: 700;
+}
+
+.c8 {
+  padding: 7px 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  font-size: 1em;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.c8:focus {
+  border-bottom: 1px solid #000;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c4 {
+  font-size: 1em;
+  line-height: 150%;
+}
+
+.c2 {
+  margin-bottom: 1em;
+}
+
+.c3 {
+  text-transform: none;
+  font-weight: bold;
+  font-size: 2.4em;
+  line-height: 110%;
+}
+
+.c5 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 1em auto;
+  border-radius: 7px;
+}
+
+@media (max-width:768px) {
+  .c1 {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <form
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <h2
+        class="c3"
+      >
+        Editar Dados
+      </h2>
+      <p
+        class="c4"
+      >
+        Atualize suas informações pessoais
+      </p>
+    </div>
+    <p
+      class="c4"
+    >
+      <strong>
+        Preview:
+      </strong>
+    </p>
+    <div
+      class=""
+    >
+      <img
+        alt="john doe"
+        class="c5"
+        src="image.png"
+      />
+    </div>
+    <div
+      class="c6"
+    >
+      <label
+        class="c7"
+        for="image"
+      >
+        Foto de perfil:
+      </label>
+      <input
+        class="c8"
+        id="image"
+        name="image"
+        placeholder=""
+        type="file"
+        value=""
+      />
+    </div>
+    <div
+      class="c6"
+    >
+      <label
+        class="c7"
+        for="name"
+      >
+        Nome:
+      </label>
+      <input
+        class="c8"
+        id="name"
+        name="name"
+        placeholder="Nome do usuário"
+        type="text"
+        value="john doe"
+      />
+    </div>
+    <div
+      class="c6"
+    >
+      <label
+        class="c7"
+        for="email"
+      >
+        Email:
+      </label>
+      <input
+        class="c8"
+        id="email"
+        name="email"
+        placeholder="Email do usuário"
+        type="email"
+        value="john@test.com"
+      />
+    </div>
+    <div
+      class="c6"
+    >
+      <label
+        class="c7"
+        for="password"
+      >
+        Senha:
+      </label>
+      <input
+        class="c8"
+        id="password"
+        name="password"
+        placeholder="Insira sua senha"
+        type="password"
+        value=""
+      />
+    </div>
+    <div
+      class="c6"
+    >
+      <label
+        class="c7"
+        for="confirmpassword"
+      >
+        Confirme sua senha:
+      </label>
+      <input
+        class="c8"
+        id="confirmpassword"
+        name="confirmpassword"
+        placeholder="Confirmar senha"
+        type="password"
+        value=""
+      />
+    </div>
+    <button
+      class="c9 c10"
+      type="submit"
+    >
+      Atualizar
+    </button>
+  </form>
+</div>
+`;

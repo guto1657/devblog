@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Page404 /> Snapshot should match snapshot 1`] = `
+.c4 {
+  font-size: 1em;
+  line-height: 150%;
+}
+
+.c2 {
+  text-transform: none;
+  font-weight: bold;
+  font-size: 2.9em;
+  line-height: 110%;
+}
+
+.c0 {
+  max-width: 60%;
+  margin: 10em auto 0;
+  text-align: center;
+}
+
+.c0 > .c3 {
+  margin: 1em 0;
+}
+
+.c5 {
+  padding: 0.5em 1.8em;
+  font-size: 1em;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 4px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  text-transform: uppercase;
+}
+
+.c5:hover {
+  background: transparent;
+  color: #000;
+  border: 2px solid #000;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+@media (max-width:768px) {
+  .c2 {
+    font-size: 1.7em;
+    line-height: 120%;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    max-width: 100%;
+  }
+
+  .c0 > .c1 {
+    font-size: 2em;
+    line-height: 110%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <h1
+    class="c1 c2"
+  >
+    404: Página não encontrada
+  </h1>
+  <p
+    class="c3 c4"
+  >
+    A página solicitada não pode ser encontrada
+  </p>
+  <button
+    class="c5"
+    type="button"
+  >
+    Voltar para home
+  </button>
+</div>
+`;

@@ -1,0 +1,622 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReadPost /> should match snapshot 1`] = `
+.c8 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 1em auto;
+  border-radius: 7px;
+}
+
+.c6 {
+  font-size: 1em;
+  line-height: 150%;
+}
+
+.c0 {
+  margin: 3em auto 0;
+}
+
+.c2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin-bottom: 1.2em;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3 {
+  color: #000;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c3:hover {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  opacity: 0.7;
+}
+
+.c1 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.c1 .c7 {
+  height: 50%;
+  width: 50%;
+  margin: 2em auto;
+}
+
+.c1 .c5 {
+  margin: 1em 0;
+}
+
+.c9 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.c10 {
+  text-align: left;
+}
+
+.c10 h1,
+.c10 h2,
+.c10 h3,
+.c10 h4,
+.c10 h5,
+.c10 h6 {
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.c10 p {
+  font-size: 18px;
+  margin-bottom: 1em;
+}
+
+.c10 a {
+  font-weight: bold;
+  color: #000;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+.c10 ol,
+.c10 ul {
+  margin-left: 2em;
+}
+
+.c10 ol li,
+.c10 ul li {
+  margin-bottom: 1em;
+}
+
+.c10 ul {
+  list-style-type: disc;
+}
+
+.c10 ol {
+  list-style-type: decimal;
+}
+
+.c10 img {
+  width: 100%;
+  display: block;
+  margin: 2em 0;
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  margin: 3em 0;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c13 {
+  display: block;
+  padding: 0 0.5em;
+  font-weight: 500;
+}
+
+.c13::before {
+  content: "#";
+  font-weight: bold;
+}
+
+.c12 {
+  display: block;
+  margin-right: 0.5em;
+  font-weight: bold;
+}
+
+.c15 {
+  height: 2px;
+  width: 100%;
+  background-color: #edf3f6;
+  margin: 1em 0;
+}
+
+.c14 {
+  font-size: 1.4em;
+  line-height: 120%;
+}
+
+.c19 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c16 {
+  margin: 2em 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.c16 button {
+  margin-top: 1em;
+}
+
+.c17 {
+  font-size: 1.7em;
+  line-height: 120%;
+}
+
+.c4 {
+  text-transform: none;
+  font-weight: bold;
+  font-size: 2.9em;
+  line-height: 110%;
+}
+
+.c23 {
+  text-transform: none;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 120%;
+}
+
+.c24 {
+  text-transform: none;
+  font-weight: 500;
+  font-size: 0.8em;
+  line-height: 150%;
+}
+
+.c18 {
+  padding: 0.5em 1.8em;
+  font-size: 1em;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  border: 2px solid #000;
+  border-radius: 4px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c18:hover {
+  background: transparent;
+  color: #000;
+  border: 2px solid #000;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c20 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  margin: 2em 0;
+  padding: 0 7px;
+  position: relative;
+}
+
+.c21 {
+  min-width: 7%;
+  width: 7%;
+  height: 100%;
+  margin: 0 1em 0 0;
+}
+
+.c21 .c7 {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.c22 {
+  width: 93%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1em;
+}
+
+.c22 > .c5 {
+  margin-top: 1.2em;
+  display: block;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.c25 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c27 {
+  cursor: pointer;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  font-size: 1em;
+}
+
+.c27:hover {
+  color: #a40404;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c26 {
+  cursor: pointer;
+  margin-right: 0.5em;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  font-size: 1em;
+}
+
+.c26:hover {
+  color: #04a453;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+@media (max-width:768px) {
+  .c1 .c7 {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .c1 {
+    width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .c9 {
+    width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .c4 {
+    font-size: 1.7em;
+    line-height: 120%;
+  }
+}
+
+@media (max-width:768px) {
+  .c21 {
+    width: 10%;
+    min-width: 10%;
+  }
+}
+
+@media (max-width:768px) {
+  .c22 {
+    width: 90%;
+  }
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <div
+      class="c1"
+    >
+      <div
+        class="c2"
+      >
+        <a
+          class="c3"
+          href="/"
+        >
+          <svg
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 24 24"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+            />
+          </svg>
+          Voltar
+        </a>
+      </div>
+      <h1
+        class="c4"
+      >
+        post title 1
+      </h1>
+      <p
+        class="c5 c6"
+      >
+        Por: 
+        john doe
+         - 
+        5 de Abril 2023
+      </p>
+      <div
+        class=""
+      >
+        <img
+          alt="post title 1"
+          class="c7 c8"
+          src="example.png"
+        />
+      </div>
+    </div>
+    <div
+      class="c9"
+    >
+      <div
+        class="c10"
+      >
+        <p>
+          post content
+        </p>
+      </div>
+      <div
+        class="c11"
+      >
+        <span
+          class="c12"
+        >
+          Tags: 
+        </span>
+        <span
+          class="c13"
+        >
+          tag1
+        </span>
+        <span
+          class="c13"
+        >
+          tag2
+        </span>
+      </div>
+      <h5
+        class="c14"
+      >
+        Comentários (2)
+      </h5>
+      <div
+        class="c15"
+      />
+      <div
+        class="c16"
+      >
+        <h4
+          class="c17"
+        >
+          Crie uma conta para comentar.
+        </h4>
+        <button
+          class="c18"
+          type="button"
+        >
+          Criar uma conta
+        </button>
+      </div>
+      <div
+        class="c19"
+      >
+        <div
+          class="c20"
+        >
+          <div
+            class="c21"
+          >
+            <div
+              class=""
+            >
+              <img
+                alt="User Image"
+                class="c7 c8"
+                src="example.png"
+              />
+            </div>
+          </div>
+          <div
+            class="c22"
+          >
+            <h6
+              class="c23"
+            >
+              john doe
+            </h6>
+            <h1
+              class="c24"
+            >
+              5 de Abril 2023
+            </h1>
+            <p
+              class="c5 c6"
+            >
+              this is a comment 01
+            </p>
+          </div>
+          <div
+            class="c25"
+          >
+            <svg
+              aria-label="Edit Icon"
+              class="c26"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 24 24"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04a.996.996 0 000-1.41l-2.34-2.34a.996.996 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+              />
+            </svg>
+            <svg
+              aria-label="Remove Icon"
+              class="c27"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 448 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="c20"
+        >
+          <div
+            class="c21"
+          >
+            <div
+              class=""
+            >
+              <img
+                alt="User Image"
+                class="c7 c8"
+                src="example.png"
+              />
+            </div>
+          </div>
+          <div
+            class="c22"
+          >
+            <h6
+              class="c23"
+            >
+              jane doe
+            </h6>
+            <h1
+              class="c24"
+            >
+              5 de Abril 2023
+            </h1>
+            <p
+              class="c5 c6"
+            >
+              this is a comment 02
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

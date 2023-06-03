@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> Rendering should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.c1 {
+  display: block;
+  margin-bottom: 0.3em;
+  font-weight: 700;
+}
+
+.c2 {
+  padding: 7px 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  font-size: 1em;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.c2:focus {
+  border-bottom: 1px solid #000;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+<div
+  class="c0"
+>
+  <label
+    class="c1"
+    for="example"
+  >
+    Example
+  </label>
+  <input
+    class="c2"
+    id="example"
+    name="example"
+    placeholder="placeholder example"
+    type="text"
+    value=""
+  />
+</div>
+`;

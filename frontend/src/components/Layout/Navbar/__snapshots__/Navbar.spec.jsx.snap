@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> Snapshot should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+  padding: 1.2em 2em;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.15);
+  position: relative;
+}
+
+.c1 {
+  font-size: 1.4em;
+  color: #000;
+}
+
+.c2 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 {
+  margin-left: 1.2em;
+}
+
+.c7 {
+  font-size: 26px;
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.c4 {
+  font-size: 26px;
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.c6 {
+  font-size: 1em;
+  padding: 0.4em 0.5em;
+  color: #000;
+  font-weight: 500;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  text-transform: capitalize;
+}
+
+.c6:hover {
+  opacity: 0.8;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c6.active {
+  background-color: #000;
+  color: #fff;
+  border-radius: 3px;
+  cursor: default;
+}
+
+.c6.active:hover {
+  opacity: 1;
+}
+
+@media (max-width:768px) {
+  .c3 {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background: #000;
+    padding: 30px;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+    z-index: 999999;
+  }
+}
+
+@media (max-width:768px) {
+  .c5 {
+    margin-left: 0;
+    margin-top: 1.2em;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    pointer-events: all;
+  }
+}
+
+@media (max-width:768px) {
+  .c4 {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    pointer-events: all;
+    border-radius: 50%;
+  }
+}
+
+@media (max-width:768px) {
+  .c6.active {
+    cursor: auto;
+  }
+}
+
+@media (max-width:768px) {
+  .c6 {
+    color: #fff;
+    font-size: 1.2em;
+  }
+}
+
+<nav
+  class="c0"
+>
+  <a
+    class="c1"
+    href="/"
+  >
+    Dev
+    <span
+      class="c2"
+    >
+      Blog
+    </span>
+  </a>
+  <ul
+    class="c3"
+  >
+    <svg
+      aria-label="Close Icon"
+      class="c4"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+      />
+    </svg>
+    <li
+      class="c5"
+    >
+      <a
+        class="c6"
+        href="/home"
+      >
+        Home
+      </a>
+    </li>
+    <li
+      class="c5"
+    >
+      <a
+        class="c6"
+        href="/login"
+      >
+        Entrar
+      </a>
+    </li>
+    <li
+      class="c5"
+    >
+      <a
+        class="c6"
+        href="/register"
+      >
+        Cadastrar
+      </a>
+    </li>
+    <li
+      class="c5"
+    >
+      <a
+        class="c6"
+        href="/about"
+      >
+        Sobre
+      </a>
+    </li>
+  </ul>
+  <svg
+    aria-label="Hamburger Icon"
+    class="c7"
+    fill="currentColor"
+    height="1em"
+    stroke="currentColor"
+    stroke-width="0"
+    viewBox="0 0 512 512"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"
+    />
+  </svg>
+</nav>
+`;

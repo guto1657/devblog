@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<About /> Rendering Snapshot should match snapshot 1`] = `
+.c4 {
+  font-size: 1em;
+  line-height: 150%;
+}
+
+.c2 {
+  text-transform: none;
+  font-weight: bold;
+  font-size: 2.9em;
+  line-height: 110%;
+}
+
+.c0 {
+  max-width: 60%;
+  margin: 3em auto 0;
+  text-align: center;
+}
+
+.c0 > .c3 {
+  margin-top: 0.5em;
+}
+
+@media (max-width:768px) {
+  .c2 {
+    font-size: 1.7em;
+    line-height: 120%;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    max-width: 100%;
+  }
+
+  .c0 > .c1 {
+    font-size: 2em;
+    line-height: 110%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <h1
+    class="c1 c2"
+  >
+    Sobre o DevBlog
+  </h1>
+  <p
+    class="c3 c4"
+  >
+    Este é um projeto de blog full-stack, que utiliza tecnologias tanto no front-end quanto no back-end. No front-end, o projeto utiliza o React para criar interfaces de usuário escaláveis e reutilizáveis. Além disso, o projeto utiliza testes unitários com Jest, visando garantir a qualidade do código produzido. A estilização é feita com Styled-Components, que permite folhas de estilo escritas em JavaScript. No back-end, utiliza-se Node.js e Express.js para criar uma API RESTful para comunicação entre front-end e back-end. A autenticação de usuários é feita com JSON Web Tokens (JWT) para segurança das informações. O armazenamento de dados é realizado no banco de dados NoSQL MongoDB, permitindo escalabilidade e flexibilidade na consulta e armazenamento de dados.
+  </p>
+</div>
+`;

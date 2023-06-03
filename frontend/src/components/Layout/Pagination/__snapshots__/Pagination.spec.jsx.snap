@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> Rendering should match snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c6 {
+  font-size: 1em;
+  line-height: 150%;
+}
+
+.c4 {
+  text-transform: none;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 110%;
+}
+
+.c1 {
+  width: 100%;
+  margin: 0 auto 3em;
+  max-width: 600px;
+}
+
+.c1 .c5 {
+  color: #444;
+  font-size: 0.8em;
+  line-height: 150%;
+  font-style: italic;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 1em;
+  border-radius: 4px;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0.8em 0;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.c8 {
+  display: block;
+  margin-right: 0.5em;
+  font-weight: 500;
+}
+
+.c8::before {
+  content: "#";
+  font-weight: bold;
+}
+
+.c9 {
+  padding: 0.5em 1.8em;
+  font-size: 1em;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background: transparent;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 4px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c9:hover {
+  background: #000;
+  color: #fff;
+  border: 2px solid #000;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+@media (max-width:768px) {
+  .c1 .c3 {
+    font-size: 1.7em;
+    line-height: 120%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <img
+      alt="title 01"
+      class="c2"
+      src="img.src"
+    />
+    <h3
+      class="c3 c4"
+    >
+      title 01
+    </h3>
+    <p
+      class="c5 c6"
+    >
+      Por: 
+      john doe
+       - 
+      5 de Abril 2023
+    </p>
+    <div
+      class="c7"
+    >
+      <span
+        class="c8"
+      >
+        tag1
+      </span>
+      <span
+        class="c8"
+      >
+        tag2
+      </span>
+    </div>
+    <button
+      class="c9"
+      type="button"
+    >
+      Ler
+    </button>
+  </div>
+  <div
+    class="c1"
+  >
+    <img
+      alt="title 02"
+      class="c2"
+      src="img.src"
+    />
+    <h3
+      class="c3 c4"
+    >
+      title 02
+    </h3>
+    <p
+      class="c5 c6"
+    >
+      Por: 
+      john doe
+       - 
+      5 de Abril 2023
+    </p>
+    <div
+      class="c7"
+    >
+      <span
+        class="c8"
+      >
+        tag1
+      </span>
+      <span
+        class="c8"
+      >
+        tag2
+      </span>
+    </div>
+    <button
+      class="c9"
+      type="button"
+    >
+      Ler
+    </button>
+  </div>
+  <div
+    class="c1"
+  >
+    <img
+      alt="title 03"
+      class="c2"
+      src="img.src"
+    />
+    <h3
+      class="c3 c4"
+    >
+      title 03
+    </h3>
+    <p
+      class="c5 c6"
+    >
+      Por: 
+      john doe
+       - 
+      5 de Abril 2023
+    </p>
+    <div
+      class="c7"
+    >
+      <span
+        class="c8"
+      >
+        tag1
+      </span>
+      <span
+        class="c8"
+      >
+        tag2
+      </span>
+    </div>
+    <button
+      class="c9"
+      type="button"
+    >
+      Ler
+    </button>
+  </div>
+</div>
+`;

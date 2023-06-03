@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Register /> Rendering should match snapshot 1`] = `
+.c9 {
+  padding: 0.5em 1.8em;
+  font-size: 1em;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background: #04a453;
+  color: #fff;
+  border: 2px solid #04a453;
+  border-radius: 4px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 1em 0;
+}
+
+.c9:hover {
+  opacity: 0.8;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0 {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  width: 450px;
+  margin-top: 3em;
+}
+
+.c1 > .c8 {
+  margin-top: 1em;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.c6 {
+  display: block;
+  margin-bottom: 0.3em;
+  font-weight: 700;
+}
+
+.c7 {
+  padding: 7px 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  font-size: 1em;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.c7:focus {
+  border-bottom: 1px solid #000;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c4 {
+  font-size: 1em;
+  line-height: 150%;
+}
+
+.c2 {
+  margin-bottom: 1em;
+}
+
+.c3 {
+  text-transform: none;
+  font-weight: bold;
+  font-size: 2.4em;
+  line-height: 110%;
+}
+
+@media (max-width:768px) {
+  .c1 {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+  }
+}
+
+<div
+  class="c0"
+>
+  <form
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <h2
+        class="c3"
+      >
+        Cadastre-se
+      </h2>
+      <p
+        class="c4"
+      >
+        Crie sua conta e compartilhe suas histórias
+      </p>
+    </div>
+    <div
+      class="c5"
+    >
+      <label
+        class="c6"
+        for="name"
+      >
+        Nome:
+      </label>
+      <input
+        class="c7"
+        id="name"
+        name="name"
+        placeholder="Nome do usuário"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="c5"
+    >
+      <label
+        class="c6"
+        for="email"
+      >
+        Email:
+      </label>
+      <input
+        class="c7"
+        id="email"
+        name="email"
+        placeholder="Email do usuário"
+        type="email"
+        value=""
+      />
+    </div>
+    <div
+      class="c5"
+    >
+      <label
+        class="c6"
+        for="password"
+      >
+        Senha:
+      </label>
+      <input
+        class="c7"
+        id="password"
+        name="password"
+        placeholder="Insira sua senha"
+        type="password"
+        value=""
+      />
+    </div>
+    <div
+      class="c5"
+    >
+      <label
+        class="c6"
+        for="confirmpassword"
+      >
+        Confirme sua senha:
+      </label>
+      <input
+        class="c7"
+        id="confirmpassword"
+        name="confirmpassword"
+        placeholder="Confirmar senha"
+        type="password"
+        value=""
+      />
+    </div>
+    <button
+      class="c8 c9"
+      type="submit"
+    >
+      Cadastrar
+    </button>
+  </form>
+</div>
+`;

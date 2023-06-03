@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ImageBox /> Snapshot should match snapshot 1`] = `
+.c0 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 1em auto;
+  border-radius: 7px;
+}
+
+<div
+  class=""
+>
+  <img
+    alt="alt test"
+    class="c0"
+    src="test.jpg"
+  />
+</div>
+`;

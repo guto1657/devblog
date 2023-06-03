@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormHeader /> Rendering should match snapshot 1`] = `
+.c2 {
+  font-size: 1em;
+  line-height: 150%;
+}
+
+.c0 {
+  margin-bottom: 1em;
+}
+
+.c1 {
+  text-transform: none;
+  font-weight: bold;
+  font-size: 2.4em;
+  line-height: 110%;
+}
+
+<div
+  class="c0"
+>
+  <h2
+    class="c1"
+  >
+    heading test
+  </h2>
+  <p
+    class="c2"
+  >
+    subHeading test
+  </p>
+</div>
+`;
