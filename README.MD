@@ -16,12 +16,12 @@ comunicação entre o front-end e o back-end da aplicação. Para armazenamento 
 dados, o projeto utiliza o MongoDB para obter maior flexibilidade no
 armazenamento e recuperação de dados
 
-![desktop](https://github.com/guto1657/test/assets/70277574/7cf7c8d3-0c76-4ca6-8176-3ecb6071c021)
-![mobile](https://github.com/guto1657/test/assets/70277574/5a39f78c-a053-4c0c-898d-cf891144c437)
+![desktop](https://github.com/guto1657/devblog/assets/70277574/5b90e3f9-9cbd-41cb-ab93-0b1bcabf70c2)
+![mobile](https://github.com/guto1657/devblog/assets/70277574/96d961d7-3c92-456d-9d19-065b271830db)
 
 ## Live Demo
 
-- [Click Here]()
+- [Click Here](https://devblog-react.vercel.app)
 
 ## Stack
 
